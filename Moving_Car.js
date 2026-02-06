@@ -15,15 +15,6 @@ function draw() {
   background(135, 206, 235);
 
   // ===== BEGIN BILLBOARD HERE =====
-  // This is where you can add your billboard!
-  // Example:
-  // fill(139, 69, 19); // brown
-  // rect(600, 150, 15, 120); // billboard post
-  // fill(255, 255, 255); // white
-  // rect(520, 150, 180, 100); // billboard sign
-  // fill(0);
-  // textSize(24);
-  // text("YOUR TEXT", 540, 210);
   
   // ===== END BILLBOARD HERE =====
 
