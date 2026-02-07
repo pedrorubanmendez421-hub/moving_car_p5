@@ -48,6 +48,22 @@ function draw() {
 
 // Function to draw the car
 function drawCar(x, y) {
+  
+  //grid 
+  fill(255, 60, 100);
+  text("(" + mouseX + ", " + mouseY + ")", mouseX, mouseY);
+  
+  fill("white");
+ rect(275, 150, 55, 55);
+  stroke('black');
+  strokeWeight(5);
+
+  line(297, 206, 297, 227);
+ 
+
+  text('45 mph', 285, 177);
+
+  
   // Car body (red)
   fill(255, 0, 0);
   rect(x, y, 100, 40, 5);
@@ -71,7 +87,7 @@ function drawCar(x, y) {
   circle(x + 25, y + 40, 10);
   circle(x + 75, y + 40, 10);
 
-  // Headlight (yellow)
+  // Headlight (white)
   fill(255, 255, 0);
   circle(x + 95, y + 15, 8);
 }
